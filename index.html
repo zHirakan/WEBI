@@ -1,0 +1,123 @@
+
+
+		<link rel="stylesheet" type="text/css" href="CSS/index.css">
+		<script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+		<script type="text/javascript" src="http://download939.mediafire.com/hdoyyh0dr6jg/f808s3fbxyrw3sd/square_std.js"></script>
+
+		<style type="text/css">
+
+		.titulos {
+			color:white;
+		}
+
+		.description {
+			color:#b8b8b8;
+		}
+
+
+
+		</style>
+
+		<script type="text/javascript">
+
+		$(document).ready(function(){
+
+				var img_bg_princ = "https://wallpaper-gallery.net/images/abstract-hd-backgrounds/abstract-hd-backgrounds-8.jpg";
+				var larg_pag = "1280px";
+				var alt_pag = "1500px";
+				var blur_c = "35px";
+
+				set_default(img_bg_princ, larg_pag, alt_pag);
+
+
+				var header = {
+					nome_classe:".header",
+					imagem:img_bg_princ,
+					largura_pag:larg_pag,
+					altura_pag:alt_pag,
+					largura_obj:"1220px",
+					altura_obg:"100px",
+					left:"20px",
+					top:"20px",
+					blur:blur_c
+				};
+
+				var bolinha = {
+					nome_classe:".bolinha",
+					imagem:img_bg_princ,
+					largura_pag:larg_pag,
+					altura_pag:alt_pag,
+					largura_obj:"790px",
+					altura_obg:"500px",
+					left:"20px",
+					top:"150px",
+					blur:blur_c
+				};
+
+				var tabela01 = {
+					nome_classe:".tabela01",
+					imagem:img_bg_princ,
+					largura_pag:larg_pag,
+					altura_pag:alt_pag,
+					largura_obj:"400px",
+					altura_obg:"500px",
+					left:"840px",
+					top:"150px",
+					blur:blur_c
+				};
+
+
+
+
+
+				
+
+				container_creator(header);
+				container_creator(bolinha);
+				container_creator(tabela01);
+
+
+
+		});
+
+		</script>
+
+
+		<div class="bg_principal">
+			
+
+
+			<div class="header"><div></div>
+
+				<img src="http://www.mediafire.com/convkey/9f2e/2znhona0wi2081zzg.jpg" class="logo-header"></div>
+
+
+				<p class="titulos">SIMFC - Monitoramento de Folhas de Pagamentos e Convênios</p>
+				<p class="description">
+				Relatórios de monitoramento dos créditos a respeito dos agêndamentos realizados no SIACC com destino no SIGMC.<br> a fim de realizar o pagamento de contas
+				dos usuários.<br>
+				Apresentação dos dados dos créditos estão agregados por convênios e remessas, estando detalhados a nível de hora.
+				</p>
+
+			</div>
+
+
+			<div class="bolinha"><div></div>
+
+				<p class="titulos">Créditos por Mês</p>
+
+			</div>
+
+
+			<div class="tabela01"><div></div>
+
+				<p class="titulos">Créditos por Ano</p>
+
+			</div>
+
+
+
+
+
+		</div>
+
